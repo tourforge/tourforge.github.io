@@ -24,7 +24,7 @@ Login GitHub and it will take you to the tokens setting.
 3. Copy the newly generated token on your way out.
 
 ### Clone the project to Android Studio
-1. Back to Android Studio, press `More Actions` > `Get from Version Control...` > Switch to `GitHub` tab > Login with token > Paste the generated token. 
+1. Back to Android Studio, press `Get from VCS` > Switch to `GitHub` tab > Press `Use token...` > Paste the generated token > Press `Log in`.
 You should be back to the `Get from Version Control` screen on the `GitHub` tab with lists of all repo you have access to.
 2. Search for `evresi/app` and select it, then set your desired project directory, then press `Clone` \
 Android Studio should be fetching the project from remote and setting it up locally.
