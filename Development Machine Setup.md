@@ -20,7 +20,7 @@ Additionally, completing and having these following items handy will speed up th
 
 ## MacBook Setup
 
-This section assumes that you have an accessible administrator user account on the MacBook and is currently running MacOS 13 Ventura at the time of writing.
+Before you do anything else, login on the Mac through System Settings. This section assumes that you have an accessible administrator user account on the MacBook and is currently running MacOS 13 Ventura at the time of writing.
 
 ### Software Installation
 
