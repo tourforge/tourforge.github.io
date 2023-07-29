@@ -14,9 +14,12 @@ You need the following registered accounts:
 - GitHub
 
 Additionally, completing and having these following items handy will speed up the setup process:
-- GitHub fine-grained personal access token with `All repositories` access and repository permission `Contents` to `Read and write`
+- GitHub fine-grained personal access token with `Public repositories (read-only)` access.
     - Follow this section of the documentation (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token)
-    - If you are a team member of OpenTourBuilder with write access, make sure the resource owner is OpenTourBuilder
+    - If you are a team member of OpenTourBuilder with write access, Your token must be setup this way instead:
+        - `All repositories` access
+        - Repository permissions with `Contents` set to `Read and write`
+        - Resource owner is `opentourbuilder`
 
 ## MacBook Setup
 
@@ -42,9 +45,8 @@ Open the terminal at a desired location and run these commands:
 - `git init`
 - `git remote add origin https://<YOUR_FINEGRAINED_TOKEN_HERE>@github.com/<ORGANIZATION_OR_USERNAME>/<REPOSITORY>.git`
 - `git fetch`
-- `git checkout main`
 
-The repository is ready to use, this will also grant write access if it exists on your account. Repeat this entire process for any additional repository that you want to clone.
+The repository is ready to use. Repeat this entire process for any additional repository that you want to clone.
 
 ## iPhone Setup
 
