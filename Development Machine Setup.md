@@ -27,8 +27,20 @@ Before you do anything else, login on the Mac through System Settings. This sect
 
 ### Software Installation
 
+- Install Homebrew
+    - Follow this documentation (https://brew.sh/)
+
+- Install Ruby
+    - Follow this documentation (https://www.ruby-lang.org/en/documentation/installation/#homebrew)
+
+- Install CocoaPods
+    - Follow this documentation (https://guides.cocoapods.org/using/getting-started.html)
+
 - Install Xcode
     - Follow this article (https://matteomanferdini.com/install-xcode/#xcode-app-store)
+
+- Install Flutter SDK
+    - Follow this documentation (https://docs.flutter.dev/get-started/install/macos)
 
 - Install Visual Studio Code
     - Follow this documentation (https://code.visualstudio.com/docs/setup/mac)
@@ -36,17 +48,17 @@ Before you do anything else, login on the Mac through System Settings. This sect
 - Install Android Studio
     - Follow this documentation (https://developer.android.com/studio/install#mac)
 
-- Install Flutter SDK
-    - Follow this documentation (https://docs.flutter.dev/get-started/install/macos)
-
 ### Setup Git Repository
 
-Open the terminal at a desired location and run these commands:
-- `git init`
-- `git remote add origin https://<YOUR_FINEGRAINED_TOKEN_HERE>@github.com/<ORGANIZATION_OR_USERNAME>/<REPOSITORY>.git`
-- `git fetch`
+Open the terminal at a desired location and run these commands, line-by-line:
 
-The repository is ready to use. Repeat this entire process for any additional repository that you want to clone.
+```
+git init
+git remote add origin https://<YOUR_FINEGRAINED_TOKEN_HERE>@github.com/<ORGANIZATION_OR_USERNAME>/<REPOSITORY>.git
+git fetch
+```
+
+The repository is ready to use. Repeat this entire process for any additional repository that you want to clone. Note that you must read `README.md` for the repository for any additional setups.
 
 ## iPhone Setup
 
