@@ -48,7 +48,12 @@ Before you do anything else, login on the Mac through System Settings. This sect
 - Install Android Studio
     - Follow this documentation (https://developer.android.com/studio/install#mac)
 
-### Setup Git Repository
+- Install Android SDK Command-Line Tools
+    - Open this GUI at (https://developer.android.com/studio/intro/update#sdk-manager)
+    - Switch to `SDK Tools` tab, you can find the required item in the list
+
+
+### Clone Git Repository
 
 Open the terminal at a desired location and run these commands, line-by-line:
 
