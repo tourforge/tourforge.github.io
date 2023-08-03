@@ -17,6 +17,7 @@ If you have not experienced publishing a mobile app before, this process can be 
 
 Follow this article (https://developer.apple.com/help/account/manage-identifiers/register-an-app-id/).
 - Enable push notification capabilities
+- Make sure to find and replace all instances of the old application ID with the newly created ID
 
 ### Create New App Record
 Follow this article (https://developer.apple.com/help/app-store-connect/create-an-app-record/add-a-new-app). The Apple developer portal has a lot of help panels/bubbles, it is highly recommended to read through them.
