@@ -60,7 +60,7 @@ Open the terminal at a desired location and run these commands, line-by-line:
 ```
 git init
 git remote add origin https://<YOUR_FINEGRAINED_TOKEN_HERE>@github.com/<ORGANIZATION_OR_USERNAME>/<REPOSITORY>.git
-git fetch
+git checkout main && git fetch
 ```
 
 The repository is ready to use. Repeat this entire process for any additional repository that you want to clone. Note that you must read `README.md` for the repository for any additional setups.
