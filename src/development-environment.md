@@ -1,4 +1,4 @@
-# Development Machine Setup
+# Setting up your development environment
 
 ## Prerequisite
 
@@ -78,4 +78,5 @@ Complete the following steps:
 - Login using a preferred Google account
 - Enable developer options and then enable USB debugging
     - Follow the top portion of this documentation (https://developer.android.com/studio/debug/dev-options)
+
 

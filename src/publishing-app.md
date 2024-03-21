@@ -1,4 +1,4 @@
-# App Publication Process
+# Publishing an app
 
 ## Prerequisite
 
