@@ -9,7 +9,7 @@ It is highly recommended to have the following devices to develop and deploy you
 
 You need the following registered accounts:
 - Apple ID
-    - You should only use exactly one account for both the MacBook and iPhone setup
+    - You should only use exactly one unique account for all Apple development devices due to special code signing requirement.
 - Google Account
 - GitHub
 
@@ -23,9 +23,10 @@ Additionally, completing and having these following items handy will speed up th
 
 ## MacBook Setup
 
-Before you do anything else, login on the Mac through System Settings. This section assumes that you have an accessible administrator user account on the MacBook and is currently running MacOS 13 Ventura at the time of writing.
+Before you do anything else, login on the Mac through System Settings. This section assumes that you have an accessible administrator user account on the MacBook and is currently running at least MacOS 13 Ventura at the time of writing.
 
 ### Software Installation
+You can install these in-order:
 
 - Install Homebrew
     - Follow this documentation (https://brew.sh/)
@@ -54,6 +55,7 @@ Before you do anything else, login on the Mac through System Settings. This sect
 
 
 ### Clone Git Repository
+NOTE: Why did this instruction exists? Isn't SSH key enough?
 
 Open the terminal at a desired location and run these commands, line-by-line:
 
