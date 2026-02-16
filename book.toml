@@ -1,6 +1,5 @@
 [book]
-authors = ["invpt"]
+authors = [ "invpt", "Eastern-Dream" ]
 language = "en"
-multilingual = false
 src = "src"
 title = "TourForge Documentation"
