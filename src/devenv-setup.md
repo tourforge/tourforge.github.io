@@ -6,6 +6,7 @@ This guide outlines the core steps to initialize a development environment on Ap
 * **VS Code:** Install via direct download. Instruction found online.
 * **Homebrew:** Install via the official shell script. Instruction found online.
 * **Nix Package Manager:** Install the Nix package manager. Instruction found online.
+* **Xcode IDE:** Installation options available either directly within Apple App Store. Alternatively, try the `xcodes` tool, which should be available for use in devenv setup. This may be necessary if you are on older Intel Mac who cannot get the latest Xcode.
 * **Xcode Command Line Tools:** Run in the terminal
 ```bash
 xcode-select --install
