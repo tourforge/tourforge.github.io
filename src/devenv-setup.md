@@ -24,7 +24,7 @@ experimental-features = nix-command flakes
 trusted-users = root $MAC_USERNAME
 ```
 
-Nix setup will modify your `/etc/zshrc`. When OS X updates, it will sometimes restore the original `/etc/zshrc`. Check the bottom of your `etc/zshrc`, you should see the following:
+Nix setup will modify your `/etc/zshrc`. When OS X updates, it will sometimes restore the original `/etc/zshrc`. Check the bottom of your `/etc/zshrc`, you should see the following:
 ```sh
 # Nix
 if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
@@ -47,6 +47,8 @@ To initialize a project environment (devenv supported environment only):
 **Enter environment:** Do the following while you are in the project root directory.
 * Run `devenv shell` manually, or
 * Run `direnv allow` to automatically load the `.envrc` configuration upon entering the directory.
+
+NOTE: Building shell will need a stable internet connection and possibly takes a long time. Please plan accordingly. After the first-time building shell has finished, the download is cached and repeat runs is almost instantaneous.
 
 ## Optional Enhancements
 
