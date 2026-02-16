@@ -24,6 +24,16 @@ experimental-features = nix-command flakes
 trusted-users = root $MAC_USERNAME
 ```
 
+Nix setup will modify your `/etc/zshrc`. When OS X updates, it will sometimes restore the original `/etc/zshrc`. Check the bottom of your `etc/zshrc`, you should see the following:
+```sh
+# Nix
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+# End Nix
+```
+If it is NOT there, you want to add this back to the bottom of your `/etc/zshrc`. Or you can try to future proof things a little, and add it to the top of your own `~/.zshrc`.
+
 ### Add Packages
 Install the primary CLI toolset via `nix profile`:
 ```bash
