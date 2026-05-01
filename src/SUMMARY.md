@@ -4,6 +4,7 @@
 
 # Development Setup
 - [Development Environment Setup (NEW)](./devenv-setup.md)
+- [Development Devices (NEW)](./dev-devices.md)
 
 # Tour creation
 - [Using the tour builder](./using-tour-builder.md)

@@ -59,4 +59,4 @@ nix registry add nixpkgs github:numtide/nixpkgs-unfree/nixos-unstable
 
 **iTerm2:** Install as a terminal emulator replacement. Generally nicer than MacOS system terminal. Instruction found online.
 
-**Zsh Plugins:** Enhance your zsh shell with `zsh-autosuggestions`, `zsh-completions`, and `zsh-syntax-highlighting`. Installable via homebrew.
+**Zsh Plugins:** Enhance your zsh shell with `zsh-autosuggestions`, `zsh-completions`, and `zsh-syntax-highlighting`. Installable via homebrew. Each package installed will also need manual intervention to add some certain snippet to `.zshrc` file.
