@@ -14,4 +14,5 @@
 - [Building an app](./building-app.md)
 
 # App publication
-- [Publishing an app](./publishing-app.md)
+- [Publishing Existing App (Apple App Store)](./publish-existing-apple.md)
+- [Publishing an app (OLD)](./publishing-app.md)
